@@ -1,14 +1,12 @@
 <template>
-  <h1 class="test text-3xl font-bold underline text-red-300">Home</h1>
+  <Navbar class="fixed top-0 left-0 right-0" />
+  <div class="bg-reddish-300 h-svh"></div>
+  <div class="bg-reddish-200 h-svh"></div>
 </template>
 
 <script>
-import { gsap } from "gsap";
+import Navbar from "@/components/Navbar/Navbar.vue";
 export default {
-  mounted() {
-    gsap.from(".test", {
-      x: 200,
-    });
-  },
+  components: { Navbar },
 };
 </script>
