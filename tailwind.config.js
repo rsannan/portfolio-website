@@ -4,7 +4,9 @@ export default {
   theme: {
     container: {
       center: true,
-      padding: "10rem",
+    },
+    fontFamily: {
+      hero: ["Montserrat", "sans-serif"],
     },
     screens: {
       sm: "640px",
@@ -18,6 +20,13 @@ export default {
         200: "#CAA6A6",
         300: "#B47B84",
         400: "#944E63",
+      },
+      nature: {
+        100: "#E1F0DA",
+        200: "#D4E7C5",
+        300: "#BFD8AF",
+        400: "#99BC85",
+        500: "#5C8374",
       },
 
       text: {
